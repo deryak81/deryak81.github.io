@@ -8,10 +8,10 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emma-core/gatsby-config.js
     siteTitle: `Derya Design`,
-    siteTitleAlt: `Derya Kurt's UX Design and Illustration Portfolio`,
-    siteHeadline: `Derya Kurt's UX Design and Illustration Portfolio`,
+    siteTitleAlt: `Derya Kurt's Product Design and Illustration Portfolio`,
+    siteHeadline: `Derya Kurt's Product Design and Illustration Portfolio`,
     siteUrl: `https://deryak81.github.io`,
-    siteDescription: `Derya Kurt's UX Design and Illustration Portfolio`,
+    siteDescription: `Derya Kurt's Product Design and Illustration Portfolio`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lekoarts_de`,
