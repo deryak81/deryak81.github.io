@@ -10,11 +10,11 @@ module.exports = {
     siteTitle: `Derya Design`,
     siteTitleAlt: `Derya Kurt's Product Design and Illustration Portfolio`,
     siteHeadline: `Derya Kurt's Product Design and Illustration Portfolio`,
-    siteUrl: `https://deryak81.github.io`,
+    siteUrl: `http://d3rya.design/`,
     siteDescription: `Derya Kurt's Product Design and Illustration Portfolio`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Drya Kurt`,
   },
   plugins: [
     {
