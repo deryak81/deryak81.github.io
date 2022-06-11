@@ -1,0 +1,11 @@
+
+
+.figures {
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.figures figure {
+    width: 25%;
+}
