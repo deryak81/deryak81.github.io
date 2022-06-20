@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from 'react';
-import { jsx, Container, Themed } from "theme-ui"
+import { jsx, Container, Themed, Box } from "theme-ui"
 import { useTrail } from "react-spring"
 import { IGatsbyImageData } from "gatsby-plugin-image"
 import Layout from "./layout"
@@ -64,17 +64,17 @@ const Projects = ({ projects }: ProjectsProps) => {
 
   return (
     <>
-      <h2>My Projects</h2>
       <Layout
-        sx={{
+      >
+        <Box  as="main" sx={{
           display: `grid`,
           gridTemplateColumns: `repeat(auto-fit, minmax(280px, 1fr))`,
           width: `100%`,
-        }}
-      >
+        }}>
         {trail.map((style, index) => (
           <ProjectItem style={style} eager={index === 0} node={projects[index]} key={projects[index].slug} />
         ))}
+        </Box> 
       </Layout>
     </>
     
